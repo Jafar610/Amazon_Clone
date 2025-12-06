@@ -166,6 +166,7 @@ nav.navbar2{
     display: flex;
     align-items: center;
     margin-right: 20px;
+    cursor: pointer;
     
 }
 .navbar2 .menu img{
@@ -191,6 +192,8 @@ nav.navbar2{
     display: block;
     align-items: center;
     background: #f5f0f0;
+    display: none;
+    transition: 0.5s;
 }
 #sidebar .user-container{
     display: flex;
@@ -224,6 +227,7 @@ nav.navbar2{
    padding: 3px;
    border-radius: 5px;
    background: #f5f0f0;
+   cursor:pointer;
 }
 
 ul li{
@@ -240,11 +244,42 @@ ul li{
     padding-left: 20px;
     color: #232f3e;
 }
-#sidebar .digital-content ul li{
+ul li{
     padding:10px 0;
     font-size: 16px;
     padding-left: 20px;
 }
-#sidebar .digital-content ul li:hover{
+ul li:hover{
     background: #bab7b7;
+}
+hr{
+    outline: 0;
+    margin: 10px 0;
+    color: #c5c1c1;
+}
+#sidebar .shop h4{
+   padding: 10px 20px;
+   font-size: 20px;
+   color: #232f3e;
+}
+
+#sidebar .programs h4{
+   padding: 10px 20px;
+   font-size: 20px;
+   color: #232f3e;
+}
+#sidebar .settings h4{
+   padding: 10px 20px;
+   font-size: 20px;
+   color: #232f3e;
+}
+#sidebar .settings .lang{
+    display: flex;
+    align-items: center;
+}
+#sidebar .settings .lang img{
+    padding-right: 10px;
+}
+#sidebar .settings .lang img.flag{
+    width: 30px;
 }
