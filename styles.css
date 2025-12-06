@@ -16,10 +16,11 @@ nav{
 nav .logo img{
     width:120px;
     padding:10px 15px;
+    margin-top: 5px;
 }
 nav .logo{
     width:100%;
-
+    margin:auto;
 }
 nav .location{
     width:100%;
@@ -74,7 +75,7 @@ nav .search-box .search-input{
 }
 .search-box .search-icon{
     background-color: #a9176f;
-    padding: 2px 0;
+    padding: 2px 5px;
     border-bottom-right-radius: 5px;
     border-top-right-radius: 5px;
 }
@@ -151,4 +152,36 @@ nav .language{
 .cart h4{
     color:#fff;
     font-size: 18px;
+}
+nav.navbar2{
+    width:100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background: #085749;
+    padding:10px;
+}
+
+.navbar2 .menu{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    
+}
+.navbar2 .menu img{
+    width:25px;
+    margin-left:10px;
+    margin-right: 5px;
+}
+.navbar2 .menu p{
+    font-size:16px;
+    color:#fff;
+    font-weight: bold;
+}
+
+.navbar2 div a{
+    text-decoration:none;
+    color:#fff;
+    margin-left: 20px;
+    padding: 0 10px;
 }
