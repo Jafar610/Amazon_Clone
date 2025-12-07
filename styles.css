@@ -342,6 +342,7 @@ hr{
 
 .box1 a, .box2 a, .box3 a, .box4 a{
     text-decoration: none;
+    cursor: pointer;
     
 }
 .box1 a p, .box2 a p, .box3 a p, .box4 a p{
@@ -362,4 +363,31 @@ hr{
 .cards .card1 img{
     padding: 10px;
     width:140px;
+}
+
+
+.secBoxs{
+    width:100%;
+    margin-top:100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.secbox1{
+    padding: 10px;
+    background: #fff;
+    border-radius: 5px;
+}
+
+.secbox1 h4{
+    font-size: 20px;
+    font-weight: bold;
+}
+.secbox1 a{
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+.secbox1 a p{
+    padding: 10px 0;
 }
