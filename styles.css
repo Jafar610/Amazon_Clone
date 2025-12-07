@@ -391,3 +391,28 @@ hr{
 .secbox1 a p{
     padding: 10px 0;
 }
+
+
+.product{
+    width: 100%;
+    margin: 20px auto ;
+    background: #ffffffd6;
+}
+.product h3{
+    padding: 10px 20px;
+    font-size: 20px;
+}
+.product .pro{
+    display: flex;
+    justify-content: flex-start;
+    margin: auto;
+}
+.product .pro div{
+    padding:10px;
+    width: 100%;
+}
+.product .pro div img{
+    width:150px;
+    padding-left:20px;
+    height: 150px;
+}
