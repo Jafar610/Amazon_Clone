@@ -395,7 +395,7 @@ hr{
 
 .product{
     width: 100%;
-    margin: 20px auto ;
+    margin-top: 20px;
     background: #ffffffd6;
 }
 .product h3{
@@ -415,4 +415,8 @@ hr{
     width:150px;
     padding-left:20px;
     height: 150px;
+}
+
+.secBoxs.product{
+    margin-top:20px;
 }
