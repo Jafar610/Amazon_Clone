@@ -420,3 +420,49 @@ hr{
 .secBoxs.product{
     margin-top:20px;
 }
+
+.signCard{
+    width:100%;
+    margin-top: 20px;
+    text-align: center;
+    background: #fff;
+    padding-top: 20px;
+}
+
+.signCard hr{
+    padding: 5px 0;
+    color: #fcfafae7;
+}
+.signCard h3{
+    font-size: 25px;
+    font-weight: bold;
+    padding: 5px 0;
+}
+.signCard button{
+    background-color:#ffd814;
+    border:none;
+    outline: none;
+    padding: 10px 100px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+.signCard p{
+    padding: 10px 0;
+    font-size: 12px;
+}
+.backtotop{
+    width: 100%;
+    padding:10px 0;
+    text-align: center;
+    background: #37475a;
+}
+.backtotop a{
+    width: 100%;
+    text-decoration: none;
+    color: #e3e6e6;
+    font-size: 18px;
+}
+.backtotop:hover{
+    background-color: #37475ab0;
+    color: #fff;
+}
